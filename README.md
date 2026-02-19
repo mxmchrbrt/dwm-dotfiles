@@ -1,1 +1,3 @@
 # This DWM dotfiles is simple but efficient, using DWM is, in my opinion, a fun way to learn C, so I'm using it.
+
+To modify the wallpaper, it's in the .xinitrc. The same applies to the compositor: picom, dwmstatus, dunst...
