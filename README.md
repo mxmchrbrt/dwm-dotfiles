@@ -1,3 +1,3 @@
-# This DWM dotfiles is simple but efficient, using DWM is, in my opinion, a fun way to learn C, so I'm using it.
+# This DWM dotfiles is simple but efficient, using DWM is, in my opinion, a fun way to learn C. Moreover, it's very lightweight and it runs well on all my laptop which I love
 
-To modify the wallpaper, it's in the .xinitrc. The same applies to the compositor: picom, dwmstatus, dunst...
+![showcase](rice.png)
