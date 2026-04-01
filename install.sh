@@ -1,9 +1,9 @@
 mkdir ~/dwm-dotfiles
 cp -rf ./* ~/dwm-dotfiles
-mv ~/dwm-dotfiles/.xinitrc ~/
-mv ~/dwm-dotfiles/scripts ~/
+cp ~/dwm-dotfiles/.xinitrc ~/
+cp ~/dwm-dotfiles/scripts ~/
 rm ~/dwm-dotfiles/rice*
-mv ~/dwm-dotfiles/.config ~/
+cp ~/dwm-dotfiles/.config ~/
 
 cd ~/dwm-dotfiles/
 cd dwm/ 
