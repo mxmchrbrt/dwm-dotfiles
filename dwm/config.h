@@ -110,12 +110,14 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 	{ 0,                 XF86XK_AudioLowerVolume,  spawn, SHCMD("pamixer --decrease 5") },
-    { 0,                 XF86XK_AudioRaiseVolume,  spawn, SHCMD("pamixer --increase 5") },
-    { 0,                 XF86XK_AudioMute,         spawn, SHCMD("pamixer --toggle-mute") },
+    	{ 0,                 XF86XK_AudioRaiseVolume,  spawn, SHCMD("pamixer --increase 5") },
+    	{ 0,                 XF86XK_AudioMute,         spawn, SHCMD("pamixer --toggle-mute") },
 
     /* Brightness Control */
 	{ 0,                 XF86XK_MonBrightnessDown,  spawn, SHCMD("xbacklight -dec 5") },
 	{ 0,                 XF86XK_MonBrightnessUp,    spawn, SHCMD("xbacklight -inc 5") },
+    /* Suspend the system */
+	{ MODKEY|ShiftMask,                       XK_l,    spawn, SHCMD("sh /home/user/scripts/suspend.sh") },
 
 };
 
